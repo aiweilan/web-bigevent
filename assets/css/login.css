@@ -1,0 +1,64 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(177, 219, 238);
+}
+#log{
+    width: 2.05rem;
+    height: .75rem;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+#log img{
+    width: 2.05rem;
+    height: .75rem;
+}
+.login{
+    width: 5rem;
+    height: 3.375rem;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.title-box{
+    height: .75rem;
+    display: flex;
+    justify-content: center;
+}
+.title-box span{
+    margin-top: .0625rem;
+    font-size: .3125rem;
+    font-weight: bolder;
+    letter-spacing: .0625rem;
+    color: rgb(0, 162, 255);
+}
+
+/* 注册盒子先隐藏 */
+.red-box{
+    display: none;
+}
+.layui-form{
+    padding: 0 .375rem;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    font-size: .15rem;
+}
+.layui-form-item{
+    position: relative;
+}
+.layui-icon{
+    position: absolute;
+    left: .125rem;
+    top: .125rem;
+}
+.layui-input{
+    padding-left: 30px !important;
+}
+
